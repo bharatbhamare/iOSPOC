@@ -1,0 +1,6 @@
+framework module iOSOBuzzNetwork {
+  umbrella header "iOSOBuzzNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}

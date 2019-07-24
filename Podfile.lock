@@ -1,0 +1,16 @@
+PODS:
+  - iOSOBuzzNetwork (0.1.0)
+
+DEPENDENCIES:
+  - iOSOBuzzNetwork
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - iOSOBuzzNetwork
+
+SPEC CHECKSUMS:
+  iOSOBuzzNetwork: db3442c80070aa7dce6b8fad8014184ffe1730e0
+
+PODFILE CHECKSUM: d22d2a89f7babdc68350255d7cc517a5a68934ec
+
+COCOAPODS: 1.6.1

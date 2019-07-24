@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034937D27F3F05BDCFC8C8F69C810681 /* iOSOBuzzNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E357F19573C8E8BF8B507A0921D0A7B /* iOSOBuzzNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E529BDFC12760C98DE8ABF9F15450BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		2AF17AA92E727B2F97351FE36399C6BD /* iOSOBuzzNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC439285F4B57209A352476803B52825 /* iOSOBuzzNetwork-dummy.m */; };
+		400CF6BBFBF2727CA3FE3FB30E9A03C7 /* OBuzzExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8510FF510EDF5E72047568B1CA0BB16 /* OBuzzExtensions.swift */; };
+		54CE5D3250BB9745F91DDB41EC39F680 /* OBuzzDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B916CE139E502DE7E335B642D86B40 /* OBuzzDownload.swift */; };
+		60868C8A23A640F0B73D990605F92F4D /* OBuzzResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BF35B3C6EEAD3FDC472151EAA4C0C4 /* OBuzzResponse.swift */; };
+		60B0C2E5AFEF9400F4D206BF43D66354 /* OBuzzCoreConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260A984D6BE7E57D34BBEFF260F68D6 /* OBuzzCoreConstants.swift */; };
+		A912DE8D062825B7E580FB5C153950D5 /* ProgressHUDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AB0EF88BDA2ABD034EE7A8F2436808 /* ProgressHUDManager.swift */; };
+		BFDAC62407DA9C61DF6EC78B2507F5D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		CE5050B31D1DFC90D874376FE5688015 /* Pods-Live News-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCD6F1343859D7592BEF5B4A96C0825 /* Pods-Live News-dummy.m */; };
+		E4865058367295CD4FAE8EB258E3A61B /* Pods-Live News-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0AAA135B6D5E7709D7DA5E24B6A504C /* Pods-Live News-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9CEB390A6418A5C392D59C04D7CA3F1 /* OBuzzNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A39B48722E919B5EF3536AF29D9A12 /* OBuzzNetworking.swift */; };
+		EBFB0E18BC02B1540FE4ECF9784E1277 /* OBuzzConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7739E1D645D8EDC96A1560AACE11E0A4 /* OBuzzConfiguration.swift */; };
+		FB6E9CC0D1CB3F13EF81DDBB0AE8FD48 /* OBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A834642686BACA98A8B3006EFCBA33E /* OBuzz.swift */; };
+		FE6BFFA3CC2545A7D6AB4DB03BD3E309 /* OBuzzParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715E4FB6729FB72EB59449C127E47DB9 /* OBuzzParams.swift */; };
+		FFD7CC57D385C6C18F1AA14D1BC7A088 /* OBuzzRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BC467B02BE29615C3F048F2E271EDC /* OBuzzRequest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A923F30DB930467C5C86943AB281FCE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2B731C6D83E18FC1036ED95605141CE;
+			remoteInfo = iOSOBuzzNetwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E357F19573C8E8BF8B507A0921D0A7B /* iOSOBuzzNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSOBuzzNetwork-umbrella.h"; sourceTree = "<group>"; };
+		2CFE4B9B0ADDA89AEBAC4B8F7C803EDB /* iOSOBuzzNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSOBuzzNetwork-prefix.pch"; sourceTree = "<group>"; };
+		3A834642686BACA98A8B3006EFCBA33E /* OBuzz.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OBuzz.swift; path = iOSOBuzzNetwork/Classes/OBuzz.swift; sourceTree = "<group>"; };
+		42B916CE139E502DE7E335B642D86B40 /* OBuzzDownload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OBuzzDownload.swift; path = iOSOBuzzNetwork/Classes/OBuzzDownload.swift; sourceTree = "<group>"; };
+		46E993ED42E09E4CA01E9FC192B36C4F /* Pods-Live News-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Live News-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4BCD6F1343859D7592BEF5B4A96C0825 /* Pods-Live News-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Live News-dummy.m"; sourceTree = "<group>"; };
+		4ED29B605235E7F19990D4FB8FBBCDD8 /* Pods-Live News-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Live News-Info.plist"; sourceTree = "<group>"; };
+		54A39B48722E919B5EF3536AF29D9A12 /* OBuzzNetworking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OBuzzNetworking.swift; path = iOSOBuzzNetwork/Classes/OBuzzNetworking.swift; sourceTree = "<group>"; };
+		5D69C06DB3E17A8B4B3D606DDCFB93E0 /* Pods-Live News.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Live News.release.xcconfig"; sourceTree = "<group>"; };
+		715E4FB6729FB72EB59449C127E47DB9 /* OBuzzParams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OBuzzParams.swift; path = iOSOBuzzNetwork/Classes/OBuzzParams.swift; sourceTree = "<group>"; };
+		7739E1D645D8EDC96A1560AACE11E0A4 /* OBuzzConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OBuzzConfiguration.swift; path = iOSOBuzzNetwork/Classes/OBuzzConfiguration.swift; sourceTree = "<group>"; };
+		88AB0EF88BDA2ABD034EE7A8F2436808 /* ProgressHUDManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressHUDManager.swift; path = iOSOBuzzNetwork/Classes/ProgressHUDManager.swift; sourceTree = "<group>"; };
+		9476D57D654B166D953F2D8A5CBB89A6 /* iOSOBuzzNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iOSOBuzzNetwork.modulemap; sourceTree = "<group>"; };
+		968A09555E8F2C5E9015F39842DBCCE1 /* iOSOBuzzNetwork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iOSOBuzzNetwork-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0AAA135B6D5E7709D7DA5E24B6A504C /* Pods-Live News-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Live News-umbrella.h"; sourceTree = "<group>"; };
+		A8510FF510EDF5E72047568B1CA0BB16 /* OBuzzExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OBuzzExtensions.swift; path = iOSOBuzzNetwork/Classes/OBuzzExtensions.swift; sourceTree = "<group>"; };
+		A9D386A4E0BD9E879412AF7C91F5D58E /* Pods_Live_News.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Live_News.framework; path = "Pods-Live News.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB96D8F7531FC4C3025C7804EAEA97A /* iOSOBuzzNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iOSOBuzzNetwork.framework; path = iOSOBuzzNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F04D5FD194200BE6FF57FBC8C0F9FE /* Pods-Live News-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Live News-frameworks.sh"; sourceTree = "<group>"; };
+		C8ADD7DBCFC469C91E5D05E56BEBA152 /* Pods-Live News-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Live News-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC12E4CC86343D88B7CC0F978BE5BE61 /* iOSOBuzzNetwork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSOBuzzNetwork.xcconfig; sourceTree = "<group>"; };
+		CC439285F4B57209A352476803B52825 /* iOSOBuzzNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSOBuzzNetwork-dummy.m"; sourceTree = "<group>"; };
+		D6BC467B02BE29615C3F048F2E271EDC /* OBuzzRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OBuzzRequest.swift; path = iOSOBuzzNetwork/Classes/OBuzzRequest.swift; sourceTree = "<group>"; };
+		D8B8A88CC7DC54CD920C47FCA6E686FB /* Pods-Live News.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Live News.debug.xcconfig"; sourceTree = "<group>"; };
+		E041331F5E2AA6E99868B091CBC2408C /* Pods-Live News.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Live News.modulemap"; sourceTree = "<group>"; };
+		E260A984D6BE7E57D34BBEFF260F68D6 /* OBuzzCoreConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OBuzzCoreConstants.swift; path = iOSOBuzzNetwork/Classes/OBuzzCoreConstants.swift; sourceTree = "<group>"; };
+		F7BF35B3C6EEAD3FDC472151EAA4C0C4 /* OBuzzResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OBuzzResponse.swift; path = iOSOBuzzNetwork/Classes/OBuzzResponse.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CB1AF09A3F74BBC655DCA150119F2E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFDAC62407DA9C61DF6EC78B2507F5D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54F260E354C3F079AE7465A0C13B6D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E529BDFC12760C98DE8ABF9F15450BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		505F2BAF3EEEAA53A649BE228AD770DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCB96D8F7531FC4C3025C7804EAEA97A /* iOSOBuzzNetwork.framework */,
+				A9D386A4E0BD9E879412AF7C91F5D58E /* Pods_Live_News.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50A768D8CAB083C16EB2DBF0263283B4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0E0FB5FE7F9EC152B07639C8ACBE72E /* Pods-Live News */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		51E435996A893C49438EC7B021C77400 /* iOSOBuzzNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				3A834642686BACA98A8B3006EFCBA33E /* OBuzz.swift */,
+				7739E1D645D8EDC96A1560AACE11E0A4 /* OBuzzConfiguration.swift */,
+				E260A984D6BE7E57D34BBEFF260F68D6 /* OBuzzCoreConstants.swift */,
+				42B916CE139E502DE7E335B642D86B40 /* OBuzzDownload.swift */,
+				A8510FF510EDF5E72047568B1CA0BB16 /* OBuzzExtensions.swift */,
+				54A39B48722E919B5EF3536AF29D9A12 /* OBuzzNetworking.swift */,
+				715E4FB6729FB72EB59449C127E47DB9 /* OBuzzParams.swift */,
+				D6BC467B02BE29615C3F048F2E271EDC /* OBuzzRequest.swift */,
+				F7BF35B3C6EEAD3FDC472151EAA4C0C4 /* OBuzzResponse.swift */,
+				88AB0EF88BDA2ABD034EE7A8F2436808 /* ProgressHUDManager.swift */,
+				CB8DC981494FF28986EDCC3B6A954191 /* Support Files */,
+			);
+			name = iOSOBuzzNetwork;
+			path = iOSOBuzzNetwork;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A2AE61F2A123E6FAA12279145793C984 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51E435996A893C49438EC7B021C77400 /* iOSOBuzzNetwork */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB8DC981494FF28986EDCC3B6A954191 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9476D57D654B166D953F2D8A5CBB89A6 /* iOSOBuzzNetwork.modulemap */,
+				CC12E4CC86343D88B7CC0F978BE5BE61 /* iOSOBuzzNetwork.xcconfig */,
+				CC439285F4B57209A352476803B52825 /* iOSOBuzzNetwork-dummy.m */,
+				968A09555E8F2C5E9015F39842DBCCE1 /* iOSOBuzzNetwork-Info.plist */,
+				2CFE4B9B0ADDA89AEBAC4B8F7C803EDB /* iOSOBuzzNetwork-prefix.pch */,
+				0E357F19573C8E8BF8B507A0921D0A7B /* iOSOBuzzNetwork-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iOSOBuzzNetwork";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A2AE61F2A123E6FAA12279145793C984 /* Pods */,
+				505F2BAF3EEEAA53A649BE228AD770DB /* Products */,
+				50A768D8CAB083C16EB2DBF0263283B4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0E0FB5FE7F9EC152B07639C8ACBE72E /* Pods-Live News */ = {
+			isa = PBXGroup;
+			children = (
+				E041331F5E2AA6E99868B091CBC2408C /* Pods-Live News.modulemap */,
+				46E993ED42E09E4CA01E9FC192B36C4F /* Pods-Live News-acknowledgements.markdown */,
+				C8ADD7DBCFC469C91E5D05E56BEBA152 /* Pods-Live News-acknowledgements.plist */,
+				4BCD6F1343859D7592BEF5B4A96C0825 /* Pods-Live News-dummy.m */,
+				C3F04D5FD194200BE6FF57FBC8C0F9FE /* Pods-Live News-frameworks.sh */,
+				4ED29B605235E7F19990D4FB8FBBCDD8 /* Pods-Live News-Info.plist */,
+				A0AAA135B6D5E7709D7DA5E24B6A504C /* Pods-Live News-umbrella.h */,
+				D8B8A88CC7DC54CD920C47FCA6E686FB /* Pods-Live News.debug.xcconfig */,
+				5D69C06DB3E17A8B4B3D606DDCFB93E0 /* Pods-Live News.release.xcconfig */,
+			);
+			name = "Pods-Live News";
+			path = "Target Support Files/Pods-Live News";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BBCCD571A956FC0675D82AC5ED78F5A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034937D27F3F05BDCFC8C8F69C810681 /* iOSOBuzzNetwork-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06B79A7BCA216095577E354467E6064 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4865058367295CD4FAE8EB258E3A61B /* Pods-Live News-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AACD8E981AF662C6977B69CB639FB6BE /* Pods-Live News */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02F65D2E3735D3180258C3FDEE996C0F /* Build configuration list for PBXNativeTarget "Pods-Live News" */;
+			buildPhases = (
+				E06B79A7BCA216095577E354467E6064 /* Headers */,
+				2D8E5EAFDE1080548A62978246F44557 /* Sources */,
+				4CB1AF09A3F74BBC655DCA150119F2E2 /* Frameworks */,
+				688B0B432311BFE6EE1E893EF7846BFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51BD82935BF0A9FEEEB1CE2DD6551152 /* PBXTargetDependency */,
+			);
+			name = "Pods-Live News";
+			productName = "Pods-Live News";
+			productReference = A9D386A4E0BD9E879412AF7C91F5D58E /* Pods_Live_News.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E2B731C6D83E18FC1036ED95605141CE /* iOSOBuzzNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4859CF064472F348342AA9C759BB96 /* Build configuration list for PBXNativeTarget "iOSOBuzzNetwork" */;
+			buildPhases = (
+				BBCCD571A956FC0675D82AC5ED78F5A7 /* Headers */,
+				D40514B5FBA74A8ABCA799542D5A36ED /* Sources */,
+				F54F260E354C3F079AE7465A0C13B6D1 /* Frameworks */,
+				4F23403977473A049F8B78601B708410 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSOBuzzNetwork;
+			productName = iOSOBuzzNetwork;
+			productReference = BCB96D8F7531FC4C3025C7804EAEA97A /* iOSOBuzzNetwork.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 505F2BAF3EEEAA53A649BE228AD770DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2B731C6D83E18FC1036ED95605141CE /* iOSOBuzzNetwork */,
+				AACD8E981AF662C6977B69CB639FB6BE /* Pods-Live News */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F23403977473A049F8B78601B708410 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		688B0B432311BFE6EE1E893EF7846BFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D8E5EAFDE1080548A62978246F44557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5050B31D1DFC90D874376FE5688015 /* Pods-Live News-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40514B5FBA74A8ABCA799542D5A36ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF17AA92E727B2F97351FE36399C6BD /* iOSOBuzzNetwork-dummy.m in Sources */,
+				FB6E9CC0D1CB3F13EF81DDBB0AE8FD48 /* OBuzz.swift in Sources */,
+				EBFB0E18BC02B1540FE4ECF9784E1277 /* OBuzzConfiguration.swift in Sources */,
+				60B0C2E5AFEF9400F4D206BF43D66354 /* OBuzzCoreConstants.swift in Sources */,
+				54CE5D3250BB9745F91DDB41EC39F680 /* OBuzzDownload.swift in Sources */,
+				400CF6BBFBF2727CA3FE3FB30E9A03C7 /* OBuzzExtensions.swift in Sources */,
+				E9CEB390A6418A5C392D59C04D7CA3F1 /* OBuzzNetworking.swift in Sources */,
+				FE6BFFA3CC2545A7D6AB4DB03BD3E309 /* OBuzzParams.swift in Sources */,
+				FFD7CC57D385C6C18F1AA14D1BC7A088 /* OBuzzRequest.swift in Sources */,
+				60868C8A23A640F0B73D990605F92F4D /* OBuzzResponse.swift in Sources */,
+				A912DE8D062825B7E580FB5C153950D5 /* ProgressHUDManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51BD82935BF0A9FEEEB1CE2DD6551152 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iOSOBuzzNetwork;
+			target = E2B731C6D83E18FC1036ED95605141CE /* iOSOBuzzNetwork */;
+			targetProxy = A923F30DB930467C5C86943AB281FCE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07488D4657FB0A78086563621D425F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3035FD5E58F7FBD6F48A8E5112466DB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC12E4CC86343D88B7CC0F978BE5BE61 /* iOSOBuzzNetwork.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOSOBuzzNetwork/iOSOBuzzNetwork-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOSOBuzzNetwork/iOSOBuzzNetwork-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iOSOBuzzNetwork/iOSOBuzzNetwork.modulemap";
+				PRODUCT_MODULE_NAME = iOSOBuzzNetwork;
+				PRODUCT_NAME = iOSOBuzzNetwork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		785C304BAB984ABA8A9EC6A2B843B1B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8B8A88CC7DC54CD920C47FCA6E686FB /* Pods-Live News.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Live News/Pods-Live News-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Live News/Pods-Live News.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9FEA4E2FF46915410D38F27035D82D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC12E4CC86343D88B7CC0F978BE5BE61 /* iOSOBuzzNetwork.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOSOBuzzNetwork/iOSOBuzzNetwork-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOSOBuzzNetwork/iOSOBuzzNetwork-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iOSOBuzzNetwork/iOSOBuzzNetwork.modulemap";
+				PRODUCT_MODULE_NAME = iOSOBuzzNetwork;
+				PRODUCT_NAME = iOSOBuzzNetwork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E563968BD494F4772FCFCDD1317DD242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D69C06DB3E17A8B4B3D606DDCFB93E0 /* Pods-Live News.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Live News/Pods-Live News-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Live News/Pods-Live News.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02F65D2E3735D3180258C3FDEE996C0F /* Build configuration list for PBXNativeTarget "Pods-Live News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				785C304BAB984ABA8A9EC6A2B843B1B0 /* Debug */,
+				E563968BD494F4772FCFCDD1317DD242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07488D4657FB0A78086563621D425F8A /* Debug */,
+				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB4859CF064472F348342AA9C759BB96 /* Build configuration list for PBXNativeTarget "iOSOBuzzNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3035FD5E58F7FBD6F48A8E5112466DB5 /* Debug */,
+				9FEA4E2FF46915410D38F27035D82D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
