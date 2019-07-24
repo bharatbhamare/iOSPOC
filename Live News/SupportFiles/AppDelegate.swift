@@ -22,7 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds);
         window?.rootViewController = liveNews
         window?.makeKeyAndVisible();
-        */
+        * test/
+        
         return true
     }
 
